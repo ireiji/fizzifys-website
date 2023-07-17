@@ -6,7 +6,7 @@ new fullpage("#fullpage", {
 
 $("document").ready(function () {
   var typed = new Typed(".typing", {
-    strings: ["YouTuber", "Web Developer", "Graphic Designer", "Freelancer", "Rubik's cube enthusiast", "Music enjoyer"],
+    strings: ["Java Developer", "Gamer", "Music enjoyer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,

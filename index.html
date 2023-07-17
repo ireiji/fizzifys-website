@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Fizzify | Portfolio" />
+    <meta
+      name="author"
+      content="Check out my Portfolio, feel free to message me!"
+    />
+
+    <meta property="og:title" content="Fizzify | Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Check out my Portfolio, feel free to message me!"
+    />
+    <meta name="theme-color" content="#3DD6D0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Fizzify | Portfolio</title>
+    <script src="/app/js/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/dist/css/main.css" />
+  </head>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <li class="list active">
+          <a href="#hero">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#about">
+            <span class="icon">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </span>
+            <span class="title">About</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#skills">
+            <span class="icon">
+              <ion-icon name="pencil-outline"></ion-icon>
+            </span>
+            <span class="title">Skills</span>
+          </a>
+        </li>
+
+        <li class="list">
+          <a href="#projects">
+            <span class="icon">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </span>
+            <span class="title">Projects</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="vanta-canvas" class="vanta-canvas"></div>
+
+    <div id="fullpage">
+      <div id="hero" class="section hero">
+        <div class="container">
+          <h1 class="hero-title">Fizzify</h1>
+          <h2>I'm a <span class="typing"></span></h2>
+          <div class="btn btn-rounded btn-l stagger1">
+            <a href="#">
+              <p>Learn More</p>
+            </a>
+          </div>
+          <a
+            href="https://github.com/Fizzify"
+            target="_blank"
+            class="hero-github"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+              /></svg
+          ></a>
+          <div class="indicator stagger2">
+            <svg
+              class="scroll"
+              width="40"
+              height="77"
+              viewBox="0 0 40 77"
+              style="transform: translate(0px); opacity: 1"
+            >
+              <g id="scroll" transform="translate(-253 -787)">
+                <g
+                  id="Rectangle_12"
+                  data-name="Rectangle 12"
+                  transform="translate(253 787)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="4"
+                  style="--darkreader-inline-stroke: #e8e6e3"
+                  data-darkreader-inline-stroke=""
+                >
+                  <rect
+                    width="40"
+                    height="77"
+                    rx="20"
+                    stroke="none"
+                    style="--darkreader-inline-stroke: none"
+                    data-darkreader-inline-stroke=""
+                  ></rect>
+                  <rect
+                    x="2"
+                    y="2"
+                    width="36"
+                    height="73"
+                    rx="18"
+                    fill="none"
+                  ></rect>
+                </g>
+                <circle
+                  class="circle"
+                  id="Ellipse_1"
+                  data-name="Ellipse 1"
+                  cx="11"
+                  cy="11"
+                  r="11"
+                  transform="translate(262 798)"
+                  fill="#fff"
+                  style="--darkreader-inline-fill: #e8e6e3"
+                  data-darkreader-inline-fill=""
+                ></circle>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="section about">
+        <h1 class="about-title">About Me</h1>
+        <p class="about-subtitle">This is where you can find info about me.</p>
+        <p class="about-paragraph">
+          I am a Web and Java Developer while also being a Graphic Designer. I
+          started coding when I was 12 years old and I've been pursuing my
+          dreams since then. I wish to graduate with a Computer Science degree
+          in the future. I am currently a student studying in the Philippines
+          and I dream to become a Software Engineer and a Senior Developer when
+          I grow up, I have experience in technology.
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="code-icon icon icon-tabler icon-tabler-code"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <polyline points="7 8 3 12 7 16" />
+          <polyline points="17 8 21 12 17 16" />
+          <line x1="14" y1="4" x2="10" y2="20" />
+        </svg>
+      </div>
+      <div id="skills" class="section skills">
+        <div class="inner">
+          <div class="header">
+            <h1>My Skills</h1>
+          </div>
+          <div class="container">
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="images/icon-html.svg"
+                    alt="HTML 5 Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>HTML 5</h3>
+              </div>
+              <p>
+                I use HTML to format and code the structures of my websites. It
+                is essential for web development. I am very experienced with
+                HTML and I use it everytime I make a website.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="images/icon-css.svg"
+                    alt="CSS 3 Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>CSS 3</h3>
+              </div>
+              <p>
+                I use CSS for styling my websites, this is really helpful if you
+                want to make your site pop. CSS is essential to beautify
+                websites and to make them look more professional.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="images/icon-js.svg"
+                    alt="JS Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>JavaScript</h3>
+              </div>
+              <p>
+                JavaScript is what I use for the functionality of my websites,
+                it is one of the most popular if not the most popular
+                programming languages.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="https://www.vectorlogo.zone/logos/java/java-icon.svg"
+                    alt="Java Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>Java</h3>
+              </div>
+              <p>
+                Java was the first programming language I learned. I use it to
+                mostly create Minecraft Clients. I love Java's flexibility
+                especially it's features like the classes and such. I use Mixin
+                and MCP for my Minecraft clients.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="images/icon-scss.svg"
+                    alt="SCSS Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>SCSS</h3>
+              </div>
+              <p>
+                I use SCSS or Sass for making CSS easier and more flexible with
+                its nesting capabilities. I use it more than CSS when making my
+                websites and I am experienced with it.
+              </p>
+            </div>
+
+            <div class="skills-box">
+              <div class="skills-title">
+                <div class="img">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+                    alt="SCSS Logo"
+                    class="skills-icon"
+                  />
+                </div>
+                <h3>Git</h3>
+              </div>
+              <p>
+                I use Git alongside with Github for version control, and I use
+                Github as a place to store and showcase my projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects" class="section projects">
+        <header class="projects-header">
+          <h1 class="projects-title">Projects</h1>
+          <p class="projects-subtitle">Here are the projects I have built.</p>
+        </header>
+        <div class="grid">
+          <div class="project-item">
+            <h1>Simon Game jQuery</h1>
+            <p>A game I made using jQuery and JavaScript.</p>
+            <a
+              href="https://simon-game-jquery-fizzify.netlify.app/"
+              target="__blank"
+            >
+              <img
+                class="item-img"
+                src="https://user-images.githubusercontent.com/79361847/167284135-f91bada2-ec98-41a0-83d7-abba8bd17af8.png"
+                alt="Project Preview"
+              />
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h1>Notei</h1>
+            <p>
+              Notei is a note-taking app for organization. It has a sticky note
+              feel to it as you can drag around the notes wherever you want.
+            </p>
+            <a href="https://www.notei.ml" target="__blank">
+              <img
+                class="item-img"
+                src="https://user-images.githubusercontent.com/79361847/171084154-cc4ad142-db51-4d1c-ab67-0cd838c925a1.png"
+                alt="Project Preview"
+              />
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h1>Electron, Express, EJS template</h1>
+            <p>
+              A template or boilerplate for Electron, Express, EJS, or what I
+              like to call it, The Three E's.
+            </p>
+            <a
+              href="https://github.com/Fizzify/electron-express-ejs-template"
+              target="__blank"
+            >
+              <img
+                class="item-img"
+                src="https://user-images.githubusercontent.com/79361847/167061859-0b912e2c-9485-4992-b1ce-70bb86b0dd12.png"
+                alt="Project Preview"
+              />
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h1>Midnight Client Fan Site</h1>
+            <p>
+              A fansite I made for a client that I was a former developer of.
+            </p>
+            <a
+              href="https://midnight-client-fanpage.netlify.app"
+              target="__blank"
+            >
+              <img
+                class="item-img"
+                src="https://user-images.githubusercontent.com/79361847/167284514-2d3f2eb1-5d79-43c2-9ace-5f7eacb358bb.png"
+                alt="Project Preview"
+              />
+            </a>
+          </div>
+
+          <div class="project-item">
+            <h1>Dog Fan Site</h1>
+            <p>A fan site for dogs, made with love.</p>
+            <a href="https://dog-fansite.netlify.app/" target="__blank">
+              <img
+                class="item-img"
+                src="https://user-images.githubusercontent.com/79361847/158291557-d5c75e82-5064-4348-97b0-8ca11074ba0a.png"
+                alt="Project Preview"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+      integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="/app/js/vanta.net.min.js"></script>
+    <script src="app/js/typed.js"></script>
+    <script src="app/js/app.js"></script>
+  </body>
+</html>

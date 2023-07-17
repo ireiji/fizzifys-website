@@ -1,0 +1,67 @@
+.hero {
+  text-align: left;
+
+  .container {
+    position: relative;
+    max-width: 100rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+
+    .hero-title {
+      font-size: 5.5em;
+      margin-bottom: 0em;
+      line-height: 1.2;
+    }
+
+    .hero-github {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4em;
+      transition: 0.3s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    h2 {
+      color: rgb(165, 165, 165);
+      font-weight: 300;
+
+      span {
+        color: $primaryColor;
+      }
+    }
+
+    .btn {
+      margin-top: 4em;
+      margin-bottom: 5em;
+      transition: opacity 0.3s ease;
+      box-shadow: 0px 8px $secondaryColor;
+
+      a {
+        text-decoration: none;
+        color: $bodyColor;
+      }
+    }
+
+    .circle {
+      margin-top: 4em;
+      animation: circleAnim 0.9s infinite;
+    }
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    transform: translate(262px, 798px);
+    z-index: 5;
+    opacity: 1;
+  }
+
+  to {
+    transform: translate(262px, 830px);
+    opacity: 0;
+  }
+}
